@@ -1,0 +1,13 @@
+Renewable Energy Integration
+
+Self-consumption: Using solar power directly is worth more than exporting it, because import rates (12-48 cents per kWh) are far higher than typical export credits. Align flexible loads with peak solar hours, usually 10 AM - 3 PM.
+
+Forecast-driven planning: On sunny forecasts, schedule EV charging, laundry and pool pumping at midday. On cloudy or rainy days, shift those loads to off-peak night hours instead.
+
+System sizing: A 5 kW array in a sunny climate produces roughly 20-27 kWh per day. Panels perform best when clean, unshaded and tilted to the local latitude. Output drops about 0.4 percent for each degree C above 25 C panel temperature.
+
+EV as flexible storage: Charging the EV from surplus solar effectively stores sunshine as driving range, and bidirectional chargers can later power the home during peak pricing.
+
+Net metering and export: Check your utility's export rules. If export credit is low, increase self-consumption through scheduling or a battery.
+
+Environmental impact: Each kWh of solar replaces about 0.4 kg of grid CO2 emissions.

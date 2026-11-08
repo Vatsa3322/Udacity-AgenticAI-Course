@@ -1,0 +1,11 @@
+HVAC Optimization Strategies 
+
+Setpointns : In summer, set the thermostat to 24-26 C (75-78 F) when home and raise it 3-4 C when away. In winter, use 19-20 C (66-68 F) when home and lower it 3-4 C when away or asleep. Each degree of adjustment saves roughly 3 percent of heating or cooling cost.
+
+Price spikes: When electricity prices spike (for example, a 4-8 PM demand-response event), pre-cool the home 1-2 degrees below normal during the preceding cheaper hours, then raise the setpoint 2-3 C during the spike. Thermal mass keeps the house comfortable for hours.
+
+Maintenance: Replace filters every 1-3 months, schedule annual servicing, and keep outdoor units clear of debris. A clogged filter can raise energy use by 15 percent.
+
+Airflow and envelope: Seal duct leaks, add attic insulation, close blinds on sun-facing windows during the day, and use ceiling fans (they allow a 2-3 C higher setpoint at the same comfort).
+
+Zoning: Condition only occupied zones and use programmable or smart thermostats with schedules and geofencing.

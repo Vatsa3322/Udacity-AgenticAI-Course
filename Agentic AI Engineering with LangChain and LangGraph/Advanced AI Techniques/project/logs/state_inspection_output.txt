@@ -1,0 +1,54 @@
+Graph nodes: ['__start__', 'intake', 'classifier', 'supervisor', 'knowledge', 'account_ops', 'escalation', 'smalltalk', 'finalize', '__end__']
+Mermaid exported to agentic/design/workflow_graph.mmd
+
+[turn] Can you show me my current reservations?
+  -> You currently have one reservation:
+
+- **Experience:** Samba Night at Lapa
+- **Location:** Rio de Janeiro, Brazil
+- **Da
+
+[turn] Thanks! And how do I reserve a spot for an event?
+  -> You can reserve an experience by opening the CultPass app, selecting your desired event, and tapping 'Reserve'. Be sure 
+
+======================================================================
+LATEST STATE  thread_id=inspect-8bf435  next=()
+======================================================================
+external_user_id  : f556c0
+route             : knowledge
+resolution        : resolved
+confidence        : 0.972
+escalation_reason : 
+classification    : {'issue_type': 'general', 'urgency': 'low', 'complexity': 'simple', 'sentiment': 'neutral', 'needs_account_action': False, 'wants_refund_or_dispute': False, 'confidence': 0.95, 'rationale': 'The customer is asking for information on how to reserve a spot for an event, which is a general inquiry and does not require account action.'}
+memory_context    : ['The customer inquired about reserving a spot for an event and was informed on how to do so through the CultPass app, resulting in a resolved issue.', 'The customer inquired about reserving a spot for an event and was informed on how to do so through the CultPass app, resulting in a resolved issue.', 'The customer inquired about reserving a spot for an event and was informed on how to do so through the CultPass app, resulting in a resolved issue.']
+
+Messages (4):
+  [human] Can you show me my current reservations?
+  [ai   ] You currently have one reservation:
+
+- **Experience:** Samba Night at Lapa
+- **Location:** Rio de Ja
+  [human] Thanks! And how do I reserve a spot for an event?
+  [ai   ] You can reserve an experience by opening the CultPass app, selecting your desired event, and tapping
+
+Tool usage (last turn; reset by Intake each turn):
+
+======================================================================
+CHECKPOINT HISTORY (chronological)
+======================================================================
+step= -1 next=('__start__',)               route=-            resolution=-                  msgs=0 tools=[]
+step=  0 next=('intake',)                  route=-            resolution=-                  msgs=1 tools=[]
+step=  1 next=('classifier',)              route=-            resolution=-                  msgs=1 tools=[]
+step=  2 next=('supervisor',)              route=-            resolution=-                  msgs=1 tools=[]
+step=  3 next=('account_ops',)             route=account_ops  resolution=-                  msgs=1 tools=[]
+step=  4 next=('finalize',)                route=account_ops  resolution=resolved           msgs=2 tools=['list_reservations']
+step=  5 next=()                           route=account_ops  resolution=resolved           msgs=2 tools=['list_reservations']
+step=  6 next=('__start__',)               route=account_ops  resolution=resolved           msgs=2 tools=['list_reservations']
+step=  7 next=('intake',)                  route=account_ops  resolution=resolved           msgs=3 tools=['list_reservations']
+step=  8 next=('classifier',)              route=-            resolution=-                  msgs=3 tools=[]
+step=  9 next=('supervisor',)              route=-            resolution=-                  msgs=3 tools=[]
+step= 10 next=('knowledge',)               route=knowledge    resolution=-                  msgs=3 tools=[]
+step= 11 next=('finalize',)                route=knowledge    resolution=resolved           msgs=4 tools=[]
+step= 12 next=()                           route=knowledge    resolution=resolved           msgs=4 tools=[]
+
+Distinct tool calls seen across thread: ['list_reservations']

@@ -1,0 +1,33 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	intake(intake)
+	classifier(classifier)
+	supervisor(supervisor)
+	knowledge(knowledge)
+	account_ops(account_ops)
+	escalation(escalation)
+	smalltalk(smalltalk)
+	finalize(finalize)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> intake;
+	account_ops -.-> escalation;
+	account_ops -.-> finalize;
+	classifier --> supervisor;
+	escalation --> finalize;
+	intake --> classifier;
+	knowledge -.-> escalation;
+	knowledge -.-> finalize;
+	smalltalk --> finalize;
+	supervisor -.-> account_ops;
+	supervisor -.-> escalation;
+	supervisor -.-> knowledge;
+	supervisor -.-> smalltalk;
+	finalize --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

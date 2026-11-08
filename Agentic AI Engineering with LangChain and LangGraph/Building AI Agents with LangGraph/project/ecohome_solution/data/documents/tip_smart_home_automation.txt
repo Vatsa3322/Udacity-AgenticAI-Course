@@ -1,0 +1,13 @@
+Smart Home Automation Tips
+
+Schedules and rules: Create automations that start flexible loads when prices drop or solar output is high. Examples: start the dishwasher after 11 PM, start EV charging when solar export exceeds 2 kW, and run the pool pump from 10 AM to 3 PM.
+
+Smart thermostats: Enable learning or schedule modes, geofencing, and utility demand-response programs. These typically save 8-12 percent on heating and cooling.
+
+Smart plugs and sub-metering: Measure standby loads and energy-hungry devices, then cut power to devices that waste energy overnight.
+
+Presence detection: Link lighting, HVAC and entertainment systems to occupancy so they turn off in empty rooms.
+
+Alerts: Set notifications for unusual consumption, high-price periods, and low solar production days so you can adjust quickly.
+
+Prioritization: When several devices compete for limited solar power, prioritize the EV and water heater (large, flexible loads) before small appliances.

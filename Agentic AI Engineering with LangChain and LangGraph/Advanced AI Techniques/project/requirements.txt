@@ -1,0 +1,9 @@
+langgraph>=0.2
+langgraph-checkpoint-sqlite
+langchain-core
+langchain-openai
+sqlalchemy>=2.0
+numpy
+python-dotenv
+pydantic>=2
+pytest

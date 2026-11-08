@@ -1,0 +1,11 @@
+Seasonal Energy Management
+
+Summer: Cooling dominates bills. Pre-cool in the morning, close blinds on sun-facing windows, use fans, and run heat-producing appliances (oven, dryer) in the evening off-peak hours. Solar output is highest, so shift loads to midday. Reduce the pool pump only if water stays clear.
+
+Winter: Heating dominates. Use 19-20 C setpoints, add weather stripping, open south-facing curtains during the day and close them at night, and lower the setpoint at night. Solar output is lower and days are shorter, so rely more on off-peak charging.
+
+Spring and autumn: Use natural ventilation and minimize HVAC use. This is a good time for maintenance, inspections and insulation upgrades before extreme weather returns.
+
+Weather events: Before heat waves or cold snaps, pre-condition the house during cheap hours and charge batteries or the EV fully. Expect higher grid prices during extreme weather.
+
+Daylight changes: Update schedules at daylight-saving changes and seasonally adjust pool pump, lighting and irrigation timers.

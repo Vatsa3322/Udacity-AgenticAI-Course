@@ -1,0 +1,13 @@
+Energy Storage Optimization
+
+Charge and discharge strategy: Charge the home battery from surplus solar during the day or from the grid during off-peak hours (11 PM - 6 AM), and discharge during the peak window (5-9 PM) when electricity is most expensive.
+
+Reserve capacity: Keep 20 percent of battery capacity in reserve for outages and storm forecasts. Increase the reserve before severe weather.
+
+Depth of discharge: Limiting regular cycling to 10-90 percent state of charge extends battery life. Avoid leaving the battery at 100 percent for long periods in hot weather.
+
+Arbitrage economics: If off-peak costs 12 cents and peak costs 35 cents per kWh, every kWh shifted saves about 23 cents, minus roughly 10 percent round-trip losses. A 10 kWh battery cycled daily can save about 700-800 dollars per year.
+
+Weather-aware charging: If tomorrow's forecast is sunny, discharge fully tonight and let the sun refill the battery. If it is cloudy, charge from the grid off-peak overnight.
+
+Thermal storage: Pre-heating water or pre-cooling the house stores energy cheaply as heat or cold and reduces peak demand.
