@@ -1,7 +1,6 @@
 # UDA-Hub – Autonomous Knowledge Agent
 
-Copy these files over your `starter/` folder (they add `agentic/*`, `utils.py`, `03_agentic_app.py`, tests,
-and the extended article file). Keep your existing `data/models/`, `.env` (needs `OPENAI_API_KEY`) and notebooks.
+
 
 ## Setup
 ```bash
