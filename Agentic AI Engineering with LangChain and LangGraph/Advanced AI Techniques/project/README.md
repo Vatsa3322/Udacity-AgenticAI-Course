@@ -34,7 +34,7 @@ python 04_inspect_state.py    # workflow-state inspection (get_state / get_state
 
 * [LangGraph](www.langchain.com) 
 * [LangChain](www.langchain.com) 
-* [Item3](www.sqlite.org) 
+* [SQLite](www.sqlite.org) 
 
 Include all items used to build project.
 
